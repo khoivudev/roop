@@ -220,7 +220,7 @@ def start() -> None:
 def destroy() -> None:
     if roop.globals.target_path:
         clean_temp(roop.globals.target_path)
-    quit()
+    #quit()
 
 
 def run() -> None:
